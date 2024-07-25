@@ -1,0 +1,51 @@
+html{
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+body{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#local{
+    width: 100%;
+    background-color: #502ca9;
+    padding: 15px 0;
+    margin: 0;
+
+    font-size: 1.5rem;
+    color: white;
+    text-align: center;
+    font-weight: 500;
+}
+
+#cities{
+    border-collapse: collapse;
+    width: 100%;
+}
+
+#cities th{
+    border: 1px solid #b7b7b7;
+    padding: 8px;
+}
+
+#cities td{
+    border: 1px solid #b7b7b7;
+    padding: 8px;
+}
+
+#cities tr:nth-child(odd){
+    background-color: #dcdcdc;
+}
+
+.col1{
+    width: 15%;
+}
+
+.col2{
+    width: 40%;
+}
+
+th{
+    text-align: left;
+}
